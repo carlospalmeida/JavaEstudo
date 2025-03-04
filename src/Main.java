@@ -38,14 +38,16 @@ public class Main {
       nomes.add("Livia");
 
       //ver os itens
-      System.out.println(nomes.get(0));
+//      System.out.println(nomes.get(0));
 
       // remover itens
-      nomes.remove(1);
+//      nomes.remove(1);
       // ver os items
-      System.out.println(nomes.get(1));
+//      System.out.println(nomes.get(1));
 
-
+    for(int i = 0; i < nomes.size(); i++){
+        System.out.println(nomes.get(i));
+    }
 
   }
 
