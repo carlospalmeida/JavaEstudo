@@ -5,7 +5,7 @@ public class Main {
 
 
   public static void main(String[] args){
-     // vetores
+    // vetores
 
 //      int [] colcaointeiros = {1, 2, 3, 4, 5};
 //      int [] minhacolecao = new int[8];
@@ -15,7 +15,7 @@ public class Main {
 //      System.out.println(colcaointeiros.length);
 
 
-      // estrutura de condição:
+    // estrutura de condição:
 //      int x = 4;
 //
 //      if (x == 10) {
@@ -28,31 +28,31 @@ public class Main {
 //
 //      }
 
-      // arrylist
+    // arrylist
 
 
 
-      ArrayList<String> nomes = new ArrayList<>();
-      nomes.add("Carlos");
-      nomes.add("Maria");
-      nomes.add("Livia");
+    ArrayList<String> nomes = new ArrayList<>();
+    nomes.add("Carlos");
+    nomes.add("Maria");
+    nomes.add("Livia");
 
-      //ver os itens
+    //ver os itens
 //      System.out.println(nomes.get(0));
 
-      // remover itens
+    // remover itens
 //      nomes.remove(1);
-      // ver os items
+    // ver os items
 //      System.out.println(nomes.get(1));
 
-      // loops
-      //For -> utilizado para que execute o que acabe a lista ou atributo
+    // loops
+    //For -> utilizado para que execute o que acabe a lista ou atributo
 //      for(int i = 0; i < nomes.size(); i++){
 //        System.out.println(nomes.get(i));
 //    }
 
 
-      // whilw -> faz uma coisa até que a condição termine
+    // whilw -> faz uma coisa até que a condição termine
 //    int contador = 0;
 //
 //    while (contador <10){
@@ -62,14 +62,14 @@ public class Main {
 
     // casting -> transformar um tipo de valor para outra
 
-      double resultado = 0.3;
+    double resultado = 0.3;
 
-      int resultadoint = (int) resultado;
+    int resultadoint = (int) resultado;
 
-      // integer
-      String meustring = "10";
-      int meuint2 = Integer.parseInt(meustring);
-      System.out.println(meuint2);
+    // integer
+    String meustring = "10";
+    int meuint2 = Integer.parseInt(meustring);
+    System.out.println(meuint2);
 
 
 
