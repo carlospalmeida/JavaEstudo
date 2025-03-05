@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+//import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Main {
@@ -45,11 +45,41 @@ public class Main {
       // ver os items
 //      System.out.println(nomes.get(1));
 
-    for(int i = 0; i < nomes.size(); i++){
-        System.out.println(nomes.get(i));
-    }
+      // loops
+      //For -> utilizado para que execute o que acabe a lista ou atributo
+//      for(int i = 0; i < nomes.size(); i++){
+//        System.out.println(nomes.get(i));
+//    }
+
+
+      // whilw -> faz uma coisa até que a condição termine
+//    int contador = 0;
+//
+//    while (contador <10){
+//        System.out.println("PLUS");
+//        contador++;
+//    }
+
+    // casting -> transformar um tipo de valor para outra
+
+      double resultado = 0.3;
+
+      int resultadoint = (int) resultado;
+
+      // integer
+      String meustring = "10";
+      int meuint2 = Integer.parseInt(meustring);
+      System.out.println(meuint2);
+
+
+
+
+
+
+
 
   }
+
 
 
 
